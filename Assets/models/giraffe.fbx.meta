@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: b824adf35855acf4caa3e5f4c16add2d
+timeCreated: 1544289147
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BackFoot.L
+    100004: BackFoot.L_end
+    100006: BackFoot.R
+    100008: BackFoot.R_end
+    100010: BackFootIK.L
+    100012: BackFootIK.R
+    100014: BackKneeIK.L
+    100016: BackKneeIK.L_end
+    100018: BackKneeIK.R
+    100020: BackKneeIK.R_end
+    100022: BackLowerLeg.L
+    100024: BackLowerLeg.L_end
+    100026: BackLowerLeg.R
+    100028: BackLowerLeg.R_end
+    100030: BackUpperLeg.L
+    100032: BackUpperLeg.R
+    100034: Bone
+    100036: Bone.001
+    100038: Bone.002
+    100040: Bone.003
+    100042: Bone.003_end
+    100044: Bone.004
+    100046: Bone.005
+    100048: Bone.006
+    100050: Bone.006_end
+    100052: Camera
+    100054: FrontFoot.L
+    100056: FrontFoot.L_end
+    100058: FrontFoot.R
+    100060: FrontFoot.R_end
+    100062: FrontFootIK.L
+    100064: FrontFootIK.R
+    100066: FrontKneeIK.L
+    100068: FrontKneeIK.L_end
+    100070: FrontKneeIK.R
+    100072: FrontKneeIK.R_end
+    100074: FrontLowerLeg.L
+    100076: FrontLowerLeg.L_end
+    100078: FrontLowerLeg.R
+    100080: FrontLowerLeg.R_end
+    100082: FrontUpperLeg.L
+    100084: FrontUpperLeg.R
+    100086: //RootNode
+    100088: Lamp
+    100090: Plane
+    400000: Armature
+    400002: BackFoot.L
+    400004: BackFoot.L_end
+    400006: BackFoot.R
+    400008: BackFoot.R_end
+    400010: BackFootIK.L
+    400012: BackFootIK.R
+    400014: BackKneeIK.L
+    400016: BackKneeIK.L_end
+    400018: BackKneeIK.R
+    400020: BackKneeIK.R_end
+    400022: BackLowerLeg.L
+    400024: BackLowerLeg.L_end
+    400026: BackLowerLeg.R
+    400028: BackLowerLeg.R_end
+    400030: BackUpperLeg.L
+    400032: BackUpperLeg.R
+    400034: Bone
+    400036: Bone.001
+    400038: Bone.002
+    400040: Bone.003
+    400042: Bone.003_end
+    400044: Bone.004
+    400046: Bone.005
+    400048: Bone.006
+    400050: Bone.006_end
+    400052: Camera
+    400054: FrontFoot.L
+    400056: FrontFoot.L_end
+    400058: FrontFoot.R
+    400060: FrontFoot.R_end
+    400062: FrontFootIK.L
+    400064: FrontFootIK.R
+    400066: FrontKneeIK.L
+    400068: FrontKneeIK.L_end
+    400070: FrontKneeIK.R
+    400072: FrontKneeIK.R_end
+    400074: FrontLowerLeg.L
+    400076: FrontLowerLeg.L_end
+    400078: FrontLowerLeg.R
+    400080: FrontLowerLeg.R_end
+    400082: FrontUpperLeg.L
+    400084: FrontUpperLeg.R
+    400086: //RootNode
+    400088: Lamp
+    400090: Plane
+    4300000: Plane
+    7400000: Armature|Eating
+    7400002: Armature|GettingUp
+    7400004: Armature|Idle
+    7400006: Armature|Sittting
+    9500000: //RootNode
+    13700000: Plane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Eating
+      takeName: Armature|Eating
+      firstFrame: 0
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackFootIK.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: Armature/BackFootIK.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: Armature/BackKneeIK.L
+        weight: 1
+      - path: Armature/BackKneeIK.L/BackKneeIK.L_end
+        weight: 1
+      - path: Armature/BackKneeIK.R
+        weight: 1
+      - path: Armature/BackKneeIK.R/BackKneeIK.R_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: Armature/FrontFootIK.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: Armature/FrontFootIK.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      - path: Armature/FrontKneeIK.L
+        weight: 1
+      - path: Armature/FrontKneeIK.L/FrontKneeIK.L_end
+        weight: 1
+      - path: Armature/FrontKneeIK.R
+        weight: 1
+      - path: Armature/FrontKneeIK.R/FrontKneeIK.R_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|GettingUp
+      takeName: Armature|GettingUp
+      firstFrame: 0
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackFootIK.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: Armature/BackFootIK.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: Armature/BackKneeIK.L
+        weight: 1
+      - path: Armature/BackKneeIK.L/BackKneeIK.L_end
+        weight: 1
+      - path: Armature/BackKneeIK.R
+        weight: 1
+      - path: Armature/BackKneeIK.R/BackKneeIK.R_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: Armature/FrontFootIK.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: Armature/FrontFootIK.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      - path: Armature/FrontKneeIK.L
+        weight: 1
+      - path: Armature/FrontKneeIK.L/FrontKneeIK.L_end
+        weight: 1
+      - path: Armature/FrontKneeIK.R
+        weight: 1
+      - path: Armature/FrontKneeIK.R/FrontKneeIK.R_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackFootIK.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: Armature/BackFootIK.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: Armature/BackKneeIK.L
+        weight: 1
+      - path: Armature/BackKneeIK.L/BackKneeIK.L_end
+        weight: 1
+      - path: Armature/BackKneeIK.R
+        weight: 1
+      - path: Armature/BackKneeIK.R/BackKneeIK.R_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: Armature/FrontFootIK.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: Armature/FrontFootIK.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      - path: Armature/FrontKneeIK.L
+        weight: 1
+      - path: Armature/FrontKneeIK.L/FrontKneeIK.L_end
+        weight: 1
+      - path: Armature/FrontKneeIK.R
+        weight: 1
+      - path: Armature/FrontKneeIK.R/FrontKneeIK.R_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Sittting
+      takeName: Armature|Sittting
+      firstFrame: 0
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackFootIK.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L
+        weight: 1
+      - path: Armature/BackFootIK.L/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: Armature/BackFootIK.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R
+        weight: 1
+      - path: Armature/BackFootIK.R/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: Armature/BackKneeIK.L
+        weight: 1
+      - path: Armature/BackKneeIK.L/BackKneeIK.L_end
+        weight: 1
+      - path: Armature/BackKneeIK.R
+        weight: 1
+      - path: Armature/BackKneeIK.R/BackKneeIK.R_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.004/Bone/Bone.001/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: Armature/Bone.004/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: Armature/FrontFootIK.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L
+        weight: 1
+      - path: Armature/FrontFootIK.L/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: Armature/FrontFootIK.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R
+        weight: 1
+      - path: Armature/FrontFootIK.R/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      - path: Armature/FrontKneeIK.L
+        weight: 1
+      - path: Armature/FrontKneeIK.L/FrontKneeIK.L_end
+        weight: 1
+      - path: Armature/FrontKneeIK.R
+        weight: 1
+      - path: Armature/FrontKneeIK.R/FrontKneeIK.R_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

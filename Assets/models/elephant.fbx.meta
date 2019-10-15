@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: 53e7baadd9f90124fb51a4428e62486a
+timeCreated: 1544283674
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.003
+    100010: Bone.004
+    100012: Bone.004_end
+    100014: Bone.005
+    100016: Bone.005_end
+    100018: Bone.012
+    100020: Bone.013
+    100022: Bone.014
+    100024: Bone.014_end
+    100026: Bone.016
+    100028: Bone.016_end
+    100030: Bone.017
+    100032: Bone.017_end
+    100034: Bone.018
+    100036: Bone.018_end
+    100038: Bone.019
+    100040: Bone.019_end
+    100042: Bone.020
+    100044: Bone.020_end
+    100046: //RootNode
+    100048: FootBack.L
+    100050: FootBack.L.001
+    100052: FootBack.L.001_end
+    100054: FootBack.L_end
+    100056: FootFront.L
+    100058: FootFront.L.001
+    100060: FootFront.L.001_end
+    100062: FootFront.L_end
+    100064: KneeBack.L
+    100066: KneeBack.L.001
+    100068: KneeBack.L.001_end
+    100070: KneeBack.L_end
+    100072: KneeFront.L
+    100074: KneeFront.L.001
+    100076: KneeFront.L.001_end
+    100078: KneeFront.L_end
+    100080: LowerLegBack.L
+    100082: LowerLegBack.L.001
+    100084: LowerLegFront.L
+    100086: LowerLegFront.L.001
+    100088: Plane
+    100090: Tail
+    100092: Tail_end
+    100094: TrunkIK
+    100096: TrunkIK_end
+    100098: UpperLegBack.L
+    100100: UpperLegBack.L.001
+    100102: UpperLegFront.L
+    100104: UpperLegFront.L.001
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.003
+    400010: Bone.004
+    400012: Bone.004_end
+    400014: Bone.005
+    400016: Bone.005_end
+    400018: Bone.012
+    400020: Bone.013
+    400022: Bone.014
+    400024: Bone.014_end
+    400026: Bone.016
+    400028: Bone.016_end
+    400030: Bone.017
+    400032: Bone.017_end
+    400034: Bone.018
+    400036: Bone.018_end
+    400038: Bone.019
+    400040: Bone.019_end
+    400042: Bone.020
+    400044: Bone.020_end
+    400046: //RootNode
+    400048: FootBack.L
+    400050: FootBack.L.001
+    400052: FootBack.L.001_end
+    400054: FootBack.L_end
+    400056: FootFront.L
+    400058: FootFront.L.001
+    400060: FootFront.L.001_end
+    400062: FootFront.L_end
+    400064: KneeBack.L
+    400066: KneeBack.L.001
+    400068: KneeBack.L.001_end
+    400070: KneeBack.L_end
+    400072: KneeFront.L
+    400074: KneeFront.L.001
+    400076: KneeFront.L.001_end
+    400078: KneeFront.L_end
+    400080: LowerLegBack.L
+    400082: LowerLegBack.L.001
+    400084: LowerLegFront.L
+    400086: LowerLegFront.L.001
+    400088: Plane
+    400090: Tail
+    400092: Tail_end
+    400094: TrunkIK
+    400096: TrunkIK_end
+    400098: UpperLegBack.L
+    400100: UpperLegBack.L.001
+    400102: UpperLegFront.L
+    400104: UpperLegFront.L.001
+    4300000: Plane
+    7400000: Armature|Angry
+    7400002: Armature|Eating
+    7400004: Armature|GettingUp
+    7400006: Armature|Idle
+    7400008: Armature|Sitting
+    9500000: //RootNode
+    13700000: Plane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Angry
+      takeName: Armature|Angry
+      firstFrame: 0
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L/FootFront.L_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001/FootFront.L.001_end
+        weight: 1
+      - path: Armature/Bone/Tail
+        weight: 1
+      - path: Armature/Bone/Tail/Tail_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L/FootBack.L_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001/FootBack.L.001_end
+        weight: 1
+      - path: Armature/Bone.016
+        weight: 1
+      - path: Armature/Bone.016/Bone.016_end
+        weight: 1
+      - path: Armature/Bone.017
+        weight: 1
+      - path: Armature/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone.018
+        weight: 1
+      - path: Armature/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone.019
+        weight: 1
+      - path: Armature/Bone.019/Bone.019_end
+        weight: 1
+      - path: Armature/Bone.020
+        weight: 1
+      - path: Armature/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/KneeBack.L
+        weight: 1
+      - path: Armature/KneeBack.L/KneeBack.L_end
+        weight: 1
+      - path: Armature/KneeBack.L.001
+        weight: 1
+      - path: Armature/KneeBack.L.001/KneeBack.L.001_end
+        weight: 1
+      - path: Armature/KneeFront.L
+        weight: 1
+      - path: Armature/KneeFront.L/KneeFront.L_end
+        weight: 1
+      - path: Armature/KneeFront.L.001
+        weight: 1
+      - path: Armature/KneeFront.L.001/KneeFront.L.001_end
+        weight: 1
+      - path: Armature/TrunkIK
+        weight: 1
+      - path: Armature/TrunkIK/TrunkIK_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Eating
+      takeName: Armature|Eating
+      firstFrame: 0
+      lastFrame: 341
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L/FootFront.L_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001/FootFront.L.001_end
+        weight: 1
+      - path: Armature/Bone/Tail
+        weight: 1
+      - path: Armature/Bone/Tail/Tail_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L/FootBack.L_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001/FootBack.L.001_end
+        weight: 1
+      - path: Armature/Bone.016
+        weight: 1
+      - path: Armature/Bone.016/Bone.016_end
+        weight: 1
+      - path: Armature/Bone.017
+        weight: 1
+      - path: Armature/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone.018
+        weight: 1
+      - path: Armature/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone.019
+        weight: 1
+      - path: Armature/Bone.019/Bone.019_end
+        weight: 1
+      - path: Armature/Bone.020
+        weight: 1
+      - path: Armature/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/KneeBack.L
+        weight: 1
+      - path: Armature/KneeBack.L/KneeBack.L_end
+        weight: 1
+      - path: Armature/KneeBack.L.001
+        weight: 1
+      - path: Armature/KneeBack.L.001/KneeBack.L.001_end
+        weight: 1
+      - path: Armature/KneeFront.L
+        weight: 1
+      - path: Armature/KneeFront.L/KneeFront.L_end
+        weight: 1
+      - path: Armature/KneeFront.L.001
+        weight: 1
+      - path: Armature/KneeFront.L.001/KneeFront.L.001_end
+        weight: 1
+      - path: Armature/TrunkIK
+        weight: 1
+      - path: Armature/TrunkIK/TrunkIK_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|GettingUp
+      takeName: Armature|GettingUp
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L/FootFront.L_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001/FootFront.L.001_end
+        weight: 1
+      - path: Armature/Bone/Tail
+        weight: 1
+      - path: Armature/Bone/Tail/Tail_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L/FootBack.L_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001/FootBack.L.001_end
+        weight: 1
+      - path: Armature/Bone.016
+        weight: 1
+      - path: Armature/Bone.016/Bone.016_end
+        weight: 1
+      - path: Armature/Bone.017
+        weight: 1
+      - path: Armature/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone.018
+        weight: 1
+      - path: Armature/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone.019
+        weight: 1
+      - path: Armature/Bone.019/Bone.019_end
+        weight: 1
+      - path: Armature/Bone.020
+        weight: 1
+      - path: Armature/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/KneeBack.L
+        weight: 1
+      - path: Armature/KneeBack.L/KneeBack.L_end
+        weight: 1
+      - path: Armature/KneeBack.L.001
+        weight: 1
+      - path: Armature/KneeBack.L.001/KneeBack.L.001_end
+        weight: 1
+      - path: Armature/KneeFront.L
+        weight: 1
+      - path: Armature/KneeFront.L/KneeFront.L_end
+        weight: 1
+      - path: Armature/KneeFront.L.001
+        weight: 1
+      - path: Armature/KneeFront.L.001/KneeFront.L.001_end
+        weight: 1
+      - path: Armature/TrunkIK
+        weight: 1
+      - path: Armature/TrunkIK/TrunkIK_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L/FootFront.L_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001/FootFront.L.001_end
+        weight: 1
+      - path: Armature/Bone/Tail
+        weight: 1
+      - path: Armature/Bone/Tail/Tail_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L/FootBack.L_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001/FootBack.L.001_end
+        weight: 1
+      - path: Armature/Bone.016
+        weight: 1
+      - path: Armature/Bone.016/Bone.016_end
+        weight: 1
+      - path: Armature/Bone.017
+        weight: 1
+      - path: Armature/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone.018
+        weight: 1
+      - path: Armature/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone.019
+        weight: 1
+      - path: Armature/Bone.019/Bone.019_end
+        weight: 1
+      - path: Armature/Bone.020
+        weight: 1
+      - path: Armature/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/KneeBack.L
+        weight: 1
+      - path: Armature/KneeBack.L/KneeBack.L_end
+        weight: 1
+      - path: Armature/KneeBack.L.001
+        weight: 1
+      - path: Armature/KneeBack.L.001/KneeBack.L.001_end
+        weight: 1
+      - path: Armature/KneeFront.L
+        weight: 1
+      - path: Armature/KneeFront.L/KneeFront.L_end
+        weight: 1
+      - path: Armature/KneeFront.L.001
+        weight: 1
+      - path: Armature/KneeFront.L.001/KneeFront.L.001_end
+        weight: 1
+      - path: Armature/TrunkIK
+        weight: 1
+      - path: Armature/TrunkIK/TrunkIK_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Sitting
+      takeName: Armature|Sitting
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.003/Bone.012/Bone.013/Bone.014/Bone.014_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L/LowerLegFront.L/FootFront.L/FootFront.L_end
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.002/UpperLegFront.L.001/LowerLegFront.L.001/FootFront.L.001/FootFront.L.001_end
+        weight: 1
+      - path: Armature/Bone/Tail
+        weight: 1
+      - path: Armature/Bone/Tail/Tail_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L/LowerLegBack.L/FootBack.L/FootBack.L_end
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001
+        weight: 1
+      - path: Armature/Bone/UpperLegBack.L.001/LowerLegBack.L.001/FootBack.L.001/FootBack.L.001_end
+        weight: 1
+      - path: Armature/Bone.016
+        weight: 1
+      - path: Armature/Bone.016/Bone.016_end
+        weight: 1
+      - path: Armature/Bone.017
+        weight: 1
+      - path: Armature/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone.018
+        weight: 1
+      - path: Armature/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone.019
+        weight: 1
+      - path: Armature/Bone.019/Bone.019_end
+        weight: 1
+      - path: Armature/Bone.020
+        weight: 1
+      - path: Armature/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/KneeBack.L
+        weight: 1
+      - path: Armature/KneeBack.L/KneeBack.L_end
+        weight: 1
+      - path: Armature/KneeBack.L.001
+        weight: 1
+      - path: Armature/KneeBack.L.001/KneeBack.L.001_end
+        weight: 1
+      - path: Armature/KneeFront.L
+        weight: 1
+      - path: Armature/KneeFront.L/KneeFront.L_end
+        weight: 1
+      - path: Armature/KneeFront.L.001
+        weight: 1
+      - path: Armature/KneeFront.L.001/KneeFront.L.001_end
+        weight: 1
+      - path: Armature/TrunkIK
+        weight: 1
+      - path: Armature/TrunkIK/TrunkIK_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
